@@ -111,3 +111,15 @@ h2:after {
 .btn:hover {
   background-color: #e63f21;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 880px) {
+  .contactbox {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    height: 200px;
+  }
+} ;
