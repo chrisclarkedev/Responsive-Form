@@ -41,6 +41,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
 
 .left {
@@ -78,4 +79,35 @@ h2:after {
   font-size: 1.1 rem;
   margin-bottom: 22px;
   transition: 0.3s;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
+  background-color: #fff;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #e97146;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #e63f21;
 }
