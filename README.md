@@ -4,4 +4,4 @@ Click [here](http://respform.mitten.surge.sh) for a live demo!
 
 ## Description
 
-Responsive Contact Form
+Contact Form that is reponsive built to be used on Tablet, SmartPhone etc.
